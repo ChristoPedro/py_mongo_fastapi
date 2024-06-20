@@ -19,7 +19,7 @@ Return all movies from MongoDB sample collection *movies*.
 
 ```/movie/{movie name}```
 
-Retuen all movies that mach parcially or with the full string.
+Return all movies that mach parcially or with the full string.
 
 ```/movie/id/{id}```
 

@@ -21,23 +21,33 @@ Return the mobie by given MongoDB *_id*.
 
 1. Create a python virtual enviroment.
 
-```python -m venv ./venv```
+```bash
+python -m venv ./venv
+```
 
 2. Activate the virtual enviroment
 
-```source .venv/bin/activate```
+```bash
+source .venv/bin/activate
+```
 
 3. Create a Enviroment Variable with Mongo Atlas connection string
 
-``` export MONGO_STRING={You Mongo Atlas Connection String} ```
+``` bash
+export MONGO_STRING={You Mongo Atlas Connection String} 
+```
 
 4. Install all needed libs using pip
 
-``` pip install -r requirementes.txt ```
+```bash
+pip install -r requirementes.txt 
+```
 
 5. Execute the webserver using uvicorn
 
-```uvicorn mongo:app --host=0.0.0.0 --port 8080 ```
+```bash
+uvicorn mongo:app --host=0.0.0.0 --port 8080 
+```
 
 ## Check the FastAPI Generated Documentation
 
